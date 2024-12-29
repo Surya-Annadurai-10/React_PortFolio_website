@@ -1,0 +1,126 @@
+.skills_container{
+    width: 100%;
+    height: 80vh;
+    background-color: #20242d;
+   
+}
+
+.skills_head{
+    margin: auto;
+}
+
+.logo{
+    width: 90%;
+    height: 60%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+    color: white;
+}
+
+.logo h2{
+    text-align: center;
+}
+
+.html{
+position: relative;
+}
+
+.html::after{
+    content:"HTML 5";
+    position: absolute;
+    bottom: -35%;
+    left: 15%;
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+
+.logo > div{
+ /* display: flex;
+ align-items: center;
+ justify-content: center;
+ flex-direction: column ; */
+}
+
+.tools > img{
+    width: 100px;
+
+}
+
+.css img{
+    width: 80px;
+}
+
+.html{
+    width: 100px;
+    border-radius: 50%;
+    height: 100px;
+    
+    /* background-color: red; */
+    /* overflow: hidden; */
+}
+.html img{
+    width: 100%;
+}
+
+.css,
+.js,
+.react,
+.github,
+.git,
+.Tail{
+    width: 100px;
+    width: 100px;
+    border-radius: 50%;
+    height: 100px;
+    /* background-color: red; */
+}
+
+.css img,
+.js  img,
+.react img,
+.github img,
+.git img,
+.Tail img{
+    width: 100px;
+    width: 100px;
+    border-radius: 50%;
+    height: 100px;
+    object-fit: cover;
+    /* background-color: red; */
+}
+
+.github img{
+    width: 100px;
+    object-position: left;
+}
+
+.html{
+
+}
+
+.html img{
+    width: 100px ;
+height: 100px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+.css{
+    height: 200px;
+    width: 120px;
+}
+
+.css img{
+    height: 140px;
+    border-radius: 0%;
+/* width: 50px;
+height: 50px; */
+}
+
+
+
+
+
+
