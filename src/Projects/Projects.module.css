@@ -1,0 +1,103 @@
+.main_con{
+    width: 100%;
+    height: 105vh;
+    background-color: #323846;
+    display: flex;
+    align-items: center;
+      justify-content: space-around;
+      flex-direction: column;
+
+}
+
+.inner{
+    width: 90%;
+    height: 75vh;
+    display: flex;
+  align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 3rem;
+    margin: auto;
+}
+
+.project_con{
+    width:350px;
+    height:250px;
+    position: relative;
+}
+
+.project_img{
+    width:350px;
+    height:200px ;
+    border-radius: 10px;
+}
+
+.project_img img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+
+    /* object-fit: cover ; */
+}
+
+.heading{
+    width: 100%;
+    height: 50px;
+    display: grid;
+    place-items: center;
+    color: white;
+}
+
+.hide{
+    /* width: 90%;
+    height: 100px; */
+    background-color: rgb(0, 0, 0,0.6);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    position: absolute;
+    top:0;
+    left: 0;
+    right: 0;
+    bottom: 20%;
+    border-radius: 10px;
+    visibility: hidden;
+    /* z-index: 10; */
+    /* transition: 0.5s ease-in-out; */
+
+}
+
+.hide a{
+    width: 70px;
+    height: 30px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* gap: 0.5rem; */
+    text-decoration:none;
+    color: black;
+    background-color: #01eeff;
+    font-size: 0.8rem;
+    box-shadow: 0 0 10px #01eeff;
+    /* transition: 0.2s ease-in-out; */
+}
+.header{
+    color: white;
+    margin-top: 7rem;
+}
+
+.hide a:hover{
+    background-color: black;
+    color: #01eeff;
+    box-shadow: 0 0 15px #01eeff;
+}
+
+.hide a:hover svg{
+    fill: #01eeff;
+}
+
+ .project_con:hover .hide{
+ visibility: visible;
+ }
