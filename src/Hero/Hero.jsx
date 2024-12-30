@@ -3,7 +3,7 @@ import styles from "./Hero.module.css";
 const Hero = () => {
   return (
     <>
-      <main className={styles.main}>
+      <main id="1" className={styles.main}>
         <div className={styles.left}>
           <div className={styles.inner}>
             <h2 className={styles.hello}>Hello, It's Me</h2>

@@ -3,14 +3,14 @@ import styles from "./About.module.css";
 const About = () => {
   return (
     <>
-      <div className={styles.about_container}>
+      <div id="2" className={styles.about_container}>
         <div className={styles.img_box}>
           <img src="https://soumyajit.vercel.app/static/media/home-main.541f8179af8209ce03ccf2178fe62dbf.svg" alt="" />
       </div>
       <div className={styles.about_con}>
-          <h1 className={styles.about_head}>
+          <a href="#" className={styles.about_head}>
             About <span className={styles.me}>Me</span>
-          </h1>
+          </a>
           <h2 className={styles.fullstack}>Full Stack <span className={styles.developer}>Developer</span> !</h2>
           <p className={styles.para}>
             {" "}
