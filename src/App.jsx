@@ -7,6 +7,9 @@ import Hero from './Hero/Hero'
 import About from './About/About'
 import Skills from './Skills/Skills'
 import Projects from './Projects/Projects'
+import Contact from './Contact/Contact'
+import Copyright from './Copyright/Copyright'
+
 
 function App() {
  
@@ -18,6 +21,8 @@ function App() {
      <About />
      <Skills />
      <Projects/>
+     <Contact />
+     <Copyright />
    </>
   )
 }

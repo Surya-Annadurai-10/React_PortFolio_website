@@ -26,6 +26,11 @@
     position: relative;
 }
 
+.project_con:hover{
+    transform: scale(1.1);
+    transition: 0.3s ease-in-out;
+}
+
 .project_img{
     width:350px;
     height:200px ;
